@@ -1,5 +1,4 @@
 # Data files
-*.parquet
 data_sample/
 
 # Byte-compiled / optimized / DLL files
