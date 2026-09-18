@@ -1,0 +1,7 @@
+Week 3 Progress:
+1) Research and small applications of RL models
+2) Building of the optimizing environment with single schedule
+3) Download data 2021-2026
+
+
+Week 4 Progress:
