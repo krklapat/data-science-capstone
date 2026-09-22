@@ -5,3 +5,7 @@ Week 3 Progress:
 
 
 Week 4 Progress:
+1) Summary of data
+2) Merge wind and solar tables
+3) Cleaned Data
+4) Created parquet files of the cleaned data
