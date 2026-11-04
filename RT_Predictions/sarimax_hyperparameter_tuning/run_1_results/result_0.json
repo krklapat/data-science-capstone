@@ -1,0 +1,19 @@
+{
+  "task_id": 0,
+  "params": {
+    "id": 0,
+    "arima_order": [
+      1,
+      0,
+      1
+    ],
+    "fourier_k": 2,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": []
+  },
+  "metrics": {
+    "val_mae": 27.043549940783986,
+    "val_rmse": 70.21990675301568
+  }
+}

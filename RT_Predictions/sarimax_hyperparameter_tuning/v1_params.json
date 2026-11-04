@@ -1,0 +1,330 @@
+[
+  {
+    "id": 0,
+    "arima_order": [1, 0, 0],
+    "fourier_k": 2,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": []
+  },
+  {
+    "id": 1,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": []
+  },
+  {
+    "id": 2,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": ["lmp_dam"]
+  },
+  {
+    "id": 3,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": ["lmp_dam"]
+  },
+  {
+    "id": 4,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 6,
+    "lookback": 4032,
+    "transform_target": true,
+    "exog_cols": ["lmp_dam"]
+  },
+  {
+    "id": 5,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": ["load_forecast", "miso_wind", "miso_solar"]
+  },
+  {
+    "id": 6,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": ["load_forecast", "miso_wind", "miso_solar"]
+  },
+  {
+    "id": 7,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 6,
+    "lookback": 4032,
+    "transform_target": true,
+    "exog_cols": ["load_forecast", "miso_wind", "miso_solar"]
+  },
+  {
+    "id": 8,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": ["lmp_dam", "load_forecast", "miso_wind", "miso_solar"]
+  },
+  {
+    "id": 9,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": ["lmp_dam", "load_forecast", "miso_wind", "miso_solar"]
+  },
+  {
+    "id": 10,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 6,
+    "lookback": 4032,
+    "transform_target": true,
+    "exog_cols": ["lmp_dam", "load_forecast", "miso_wind", "miso_solar"]
+  },
+  {
+    "id": 11,
+    "arima_order": [2, 0, 2],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": ["lmp_dam", "load_forecast", "miso_wind", "miso_solar"]
+  },
+  {
+    "id": 12,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": ["lmp_dam", "north_wind", "central_wind", "south_wind"]
+  },
+  {
+    "id": 13,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": ["lmp_dam", "north_wind", "central_wind", "south_wind"]
+  },
+  {
+    "id": 14,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": [
+      "lmp_dam",
+      "load_forecast",
+      "north_wind", "central_wind", "south_wind",
+      "north_solar", "central_solar", "south_solar"
+    ]
+  },
+  {
+    "id": 15,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": [
+      "lmp_dam",
+      "load_forecast",
+      "north_wind", "central_wind", "south_wind",
+      "north_solar", "central_solar", "south_solar"
+    ]
+  },
+  {
+    "id": 16,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 6,
+    "lookback": 4032,
+    "transform_target": true,
+    "exog_cols": [
+      "lmp_dam",
+      "load_forecast",
+      "north_wind", "central_wind", "south_wind",
+      "north_solar", "central_solar", "south_solar"
+    ]
+  },
+  {
+    "id": 17,
+    "arima_order": [2, 0, 2],
+    "fourier_k": 6,
+    "lookback": 4032,
+    "transform_target": true,
+    "exog_cols": [
+      "lmp_dam",
+      "load_forecast",
+      "north_wind", "central_wind", "south_wind",
+      "north_solar", "central_solar", "south_solar"
+    ]
+  },
+  {
+    "id": 18,
+    "arima_order": [1, 0, 0],
+    "fourier_k": 2,
+    "lookback": 2016,
+    "transform_target": false,
+    "exog_cols": []
+  },
+  {
+    "id": 19,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": false,
+    "exog_cols": []
+  },
+  {
+    "id": 20,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": false,
+    "exog_cols": ["lmp_dam"]
+  },
+  {
+    "id": 21,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": false,
+    "exog_cols": ["lmp_dam"]
+  },
+  {
+    "id": 22,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 6,
+    "lookback": 4032,
+    "transform_target": false,
+    "exog_cols": ["lmp_dam"]
+  },
+  {
+    "id": 23,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": false,
+    "exog_cols": ["load_forecast", "miso_wind", "miso_solar"]
+  },
+  {
+    "id": 24,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": false,
+    "exog_cols": ["load_forecast", "miso_wind", "miso_solar"]
+  },
+  {
+    "id": 25,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 6,
+    "lookback": 4032,
+    "transform_target": false,
+    "exog_cols": ["load_forecast", "miso_wind", "miso_solar"]
+  },
+  {
+    "id": 26,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": false,
+    "exog_cols": ["lmp_dam", "load_forecast", "miso_wind", "miso_solar"]
+  },
+  {
+    "id": 27,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": false,
+    "exog_cols": ["lmp_dam", "load_forecast", "miso_wind", "miso_solar"]
+  },
+  {
+    "id": 28,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 6,
+    "lookback": 4032,
+    "transform_target": false,
+    "exog_cols": ["lmp_dam", "load_forecast", "miso_wind", "miso_solar"]
+  },
+  {
+    "id": 29,
+    "arima_order": [2, 0, 2],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": false,
+    "exog_cols": ["lmp_dam", "load_forecast", "miso_wind", "miso_solar"]
+  },
+  {
+    "id": 30,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": false,
+    "exog_cols": ["lmp_dam", "north_wind", "central_wind", "south_wind"]
+  },
+  {
+    "id": 31,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": false,
+    "exog_cols": ["lmp_dam", "north_wind", "central_wind", "south_wind"]
+  },
+  {
+    "id": 32,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": false,
+    "exog_cols": [
+      "lmp_dam",
+      "load_forecast",
+      "north_wind", "central_wind", "south_wind",
+      "north_solar", "central_solar", "south_solar"
+    ]
+  },
+  {
+    "id": 33,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": false,
+    "exog_cols": [
+      "lmp_dam",
+      "load_forecast",
+      "north_wind", "central_wind", "south_wind",
+      "north_solar", "central_solar", "south_solar"
+    ]
+  },
+  {
+    "id": 34,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 6,
+    "lookback": 4032,
+    "transform_target": false,
+    "exog_cols": [
+      "lmp_dam",
+      "load_forecast",
+      "north_wind", "central_wind", "south_wind",
+      "north_solar", "central_solar", "south_solar"
+    ]
+  },
+  {
+    "id": 35,
+    "arima_order": [2, 0, 2],
+    "fourier_k": 6,
+    "lookback": 4032,
+    "transform_target": false,
+    "exog_cols": [
+      "lmp_dam",
+      "load_forecast",
+      "north_wind", "central_wind", "south_wind",
+      "north_solar", "central_solar", "south_solar"
+    ]
+  }
+]
