@@ -1,0 +1,24 @@
+{
+  "task_id": 26,
+  "params": {
+    "id": 26,
+    "arima_order": [
+      1,
+      0,
+      1
+    ],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": false,
+    "exog_cols": [
+      "lmp_dam",
+      "load_forecast",
+      "miso_wind",
+      "miso_solar"
+    ]
+  },
+  "metrics": {
+    "val_mae": 4.11542736371305e+91,
+    "val_rmse": 4.0593793431315197e+93
+  }
+}

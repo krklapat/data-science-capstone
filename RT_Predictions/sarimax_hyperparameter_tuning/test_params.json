@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "arima_order": [1, 0, 1],
+    "fourier_k": 2,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": []
+  },
+  {
+    "id": 1,
+    "arima_order": [2, 0, 1],
+    "fourier_k": 4,
+    "lookback": 2016,
+    "transform_target": true,
+    "exog_cols": []
+  }
+]

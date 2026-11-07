@@ -1,6 +1,10 @@
 # Data files
 data_sample/
 
+# error and log files
+*.err
+*.log
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
