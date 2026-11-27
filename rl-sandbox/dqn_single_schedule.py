@@ -9,12 +9,13 @@ import torch.optim as optim
 import gymnasium as gym
 from gymnasium import spaces
 from collections import deque
+import json
 
 
 
 #Global Constants
 
-TRAINING_ITERATIONS = 1
+TRAINING_ITERATIONS = 1000
 ACTION_MAP = {0:-1, 1:0, 2:1} 
 #This is used to convert indices which need to be used in the replay buffer and tensor qnet into (Buy:-1, Hold:0, Sell:1) to work as a multiplier for the reward function
 
@@ -22,8 +23,10 @@ ACTION_MAP = {0:-1, 1:0, 2:1}
 
 #Data Import 
 
-dam = pd.read_parquet("..\\data-pull\\combined_data\\dam_data_2023_2026.parquet")
+dam = pd.read_parquet("dam.parquet")
 dam["lmp"]
+
+total_rewards = []
 
 
 # 1. Custom Gymnasium Environment
@@ -229,7 +232,11 @@ for episode in range(TRAINING_ITERATIONS):
     epsilon = max(epsilon_min, epsilon * epsilon_decay)
     if episode % 20 == 0:
         target_net.load_state_dict(q_net.state_dict())
+    params_dict = {k: v.tolist() for k, v in q_net.state_dict().items()}
+    print("SAVED_WEIGHTS =", json.dumps(params_dict))
+    total_rewards.append(total_reward)
     print("Total Reward: ", total_reward)
+print(total_rewards)
 
 
 
