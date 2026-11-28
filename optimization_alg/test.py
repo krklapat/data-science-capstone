@@ -1,6 +1,8 @@
 from linear_program import milp
+import pandas as pd
 
-prices = [30, 20, 40, 10, 50]
+prices = pd.read_parquet('Data/cleaned_data/dam.parquet')
+prices = prices['lmp']
 
 history, profit = milp(prices)
 
